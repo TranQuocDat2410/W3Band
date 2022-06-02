@@ -1,0 +1,90 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.font-white{
+    color: #fff !important;
+}
+
+.navigation-btn{
+    padding: 10px 24px !important;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.navigation-btn:hover{
+    background-color: #ccc !important;
+    color: #000 !important;
+}
+
+.bg-red:hover{
+    background-color: #f44336 !important;
+    color: #fff !important;
+}
+
+.square{
+    border-radius: 0;
+}
+
+.warn-sold-out{
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.modal-container{
+    position: relative;
+}
+
+.close-modal{
+    position: absolute;
+    right: 0;
+}
+
+#Navigation{
+    padding: 0;
+    position: sticky;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+}
+
+
+#Navigation .nav-item.dropdown{
+    position: relative;
+}
+
+#Navigation .dropdown .dropdown-menu{
+    position: absolute;
+    top: 58px;
+    padding: 0;
+    border: none;
+    margin: 0;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+
+#Navigation .dropdown .dropdown-item{
+    padding: 8px 16px;
+    margin: 0;
+
+}
+
+#Navigation .dropdown .dropdown-item:hover{
+    background-color: #ccc !important;
+    color: #000 !important;
+}
+
+#band-member h1{
+    text-transform: uppercase;
+}
+
+#list-member img{
+    width: 60%;
+}
+
+#book-place img{
+    width: 100%;
+}
